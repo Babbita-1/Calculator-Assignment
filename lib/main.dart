@@ -1,6 +1,6 @@
 
 
-import 'package:first_assignment/view/dashboard.dart';
+import 'package:first_assignment/view/Calculator_view.dart';
 import 'package:flutter/material.dart';
  // Import the dashboard screen
 
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:const Dashboard(),
+      home:const CalculatorView(),
     );
   }
 }
